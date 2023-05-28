@@ -229,12 +229,20 @@ select:-webkit-autofill:focus {
   list-style: none;
 }
 
+.pricing-plan-best .pricing-plan-features {
+  border-top: 1px solid rgb(255, 255 , 255, 0.25)
+}
+
 .pricing-plan-feature {
   padding: 12px;
   border-bottom: 1px solid rgb(110, 114, 142, 0.25);
   font-size: 15px;
   line-height: 28px;
   text-align: center;
+}
+
+.pricing-plan-best .pricing-plan-feature {
+  border-bottom: 1px solid rgb(255, 255 , 255, 0.25)
 }
 
 
